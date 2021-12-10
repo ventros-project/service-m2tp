@@ -1,0 +1,19 @@
+{
+  "name": "service-m2tp",
+  "version": "1.0.0",
+  "description": "Bridges between apps and M2TP network",
+  "main": "main.js",
+  "repository": "https://github.com/ventros-project/service-m2tp.git",
+  "author": "Athaariq Ardhiansyah",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "errno": "^1.0.0",
+    "express": "^4.17.1",
+    "ffi-napi": "^4.0.3",
+    "http-status-codes": "^2.1.4",
+    "ref-array-di": "^1.2.2",
+    "ref-napi": "^3.0.3"
+  }
+}
