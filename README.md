@@ -21,3 +21,20 @@ This service allows apps to utilize M2TP without re-write wrapper for the librar
 ## Configuration
 
 Duplicate `.env.example` and rename it to `.env` then modify it.
+
+## API Endpoints
+
+- `GET /`<br>
+  List all available commands
+- `GET /device`<br>
+  List all connected devices
+- `GET /device/<class>`<br>
+  Get last data from a device with that class name
+- `POST /device/<class>`<br>
+  Send data to a device with that class name
+- `GET /topic`<br>
+  List all available topics
+- `GET /topic/<topic_name>`<br>
+  Get last data from that topic
+- `POST /topic/<topic_name>`<br>
+  Broadcast to that topic
