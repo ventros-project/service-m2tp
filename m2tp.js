@@ -49,6 +49,6 @@ global.receiveListener = ffi.Callback(
   receiveStation.handler
 );
 
-m2tp.m2tp_setReceivedListener.async(global.receiveListener, () => {});
+m2tp.m2tp_setReceivedListener(global.receiveListener);
 
 module.exports = m2tp;
